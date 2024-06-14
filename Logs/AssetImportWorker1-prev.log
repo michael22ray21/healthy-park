@@ -1,0 +1,1860 @@
+Unity Editor version:    2022.3.32f1 (c8300dc0a3fa)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/bytedance/Unity/Healthy Park 2D
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60449
+Successfully changed project path to: /Users/bytedance/Unity/Healthy Park 2D
+/Users/bytedance/Unity/Healthy Park 2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8498482176] Host "[IP] 100.65.96.19 [Port] 0 [Flags] 2 [Guid] 1546629570 [EditorId] 1546629570 [Version] 1048832 [Id] OSXEditor(0,C02GH1A0Q05P) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8498482176] Host "[IP] 100.65.96.19 [Port] 0 [Flags] 2 [Guid] 1546629570 [EditorId] 1546629570 [Version] 1048832 [Id] OSXEditor(0,C02GH1A0Q05P) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 7.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.32f1 (c8300dc0a3fa)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bytedance/Unity/Healthy Park 2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56917
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003368 seconds.
+- Loaded All Assemblies, in  0.251 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 419ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 1054ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.47 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (198.8 KB). Loaded Objects now: 4489.
+Memory consumption went from 147.1 MB to 146.9 MB.
+Total: 2.734041 ms (FindLiveObjects: 0.155709 ms CreateObjectMapping: 0.052541 ms MarkObjects: 2.355208 ms  DeleteObjects: 0.169833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ff47000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.187 seconds
+Domain Reload Profiling: 1730ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (51ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (3.4 MB). Loaded Objects now: 4650.
+Memory consumption went from 162.5 MB to 159.0 MB.
+Total: 3.767042 ms (FindLiveObjects: 0.180334 ms CreateObjectMapping: 0.059834 ms MarkObjects: 2.483208 ms  DeleteObjects: 1.043125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.787 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (787ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (3.4 MB). Loaded Objects now: 4654.
+Memory consumption went from 168.0 MB to 164.5 MB.
+Total: 3.778250 ms (FindLiveObjects: 0.152750 ms CreateObjectMapping: 0.057833 ms MarkObjects: 2.486208 ms  DeleteObjects: 1.080833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (3.5 MB). Loaded Objects now: 4657.
+Memory consumption went from 173.5 MB to 170.1 MB.
+Total: 3.591209 ms (FindLiveObjects: 0.144250 ms CreateObjectMapping: 0.052250 ms MarkObjects: 2.352334 ms  DeleteObjects: 1.041542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.48 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1503ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (928ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (3.5 MB). Loaded Objects now: 4619.
+Memory consumption went from 178.1 MB to 174.6 MB.
+Total: 3.646459 ms (FindLiveObjects: 0.143167 ms CreateObjectMapping: 0.058083 ms MarkObjects: 2.326583 ms  DeleteObjects: 1.118000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1453ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (48ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4031 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (215.1 KB). Loaded Objects now: 4551.
+Memory consumption went from 174.1 MB to 173.9 MB.
+Total: 3.193916 ms (FindLiveObjects: 0.160958 ms CreateObjectMapping: 0.055875 ms MarkObjects: 2.714000 ms  DeleteObjects: 0.262625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (51ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (3.4 MB). Loaded Objects now: 4669.
+Memory consumption went from 190.2 MB to 186.8 MB.
+Total: 3.696916 ms (FindLiveObjects: 0.144791 ms CreateObjectMapping: 0.055792 ms MarkObjects: 2.411292 ms  DeleteObjects: 1.084250 ms)
+
+Prepare: number of updated asset objects reloaded= 38
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12304.798479 seconds.
+  path: Assets/Sprites/healthy_apple.png
+  artifactKey: Guid(71da8671355454ac7ab7c6d45ec725cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/healthy_apple.png using Guid(71da8671355454ac7ab7c6d45ec725cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0524a13eef9a015abc3fdca50004771e') in 0.487096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/healthy_fish.png
+  artifactKey: Guid(d47a74aff74344355afd1bd2bfa2af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/healthy_fish.png using Guid(d47a74aff74344355afd1bd2bfa2af37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1874bb19ac4bb795b0a423b4c9d624fe') in 0.011021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/input name board.png
+  artifactKey: Guid(4603dbecb6d5b4f26b40a7863122cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/input name board.png using Guid(4603dbecb6d5b4f26b40a7863122cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f961f2946a2bdd91a78793f660a7ee0') in 0.011828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/scoreboard.png
+  artifactKey: Guid(4b6231810b2c247668124e77e587db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/scoreboard.png using Guid(4b6231810b2c247668124e77e587db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f1efb891f5af37c2c495bdff712f548') in 0.011444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprites/input name plants behind.png
+  artifactKey: Guid(8b5b5751e10484223abcf2d048f66276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/input name plants behind.png using Guid(8b5b5751e10484223abcf2d048f66276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '131cc3ae6e2115e29853797989adc71c') in 0.009555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/input name plants front.png
+  artifactKey: Guid(bc74526be514145f1b70eb6aff618a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/input name plants front.png using Guid(bc74526be514145f1b70eb6aff618a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f651d19284c88e14729f7bac6b19398') in 0.008219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/leaderboard plank.png
+  artifactKey: Guid(588c0f9e94a0a41aaadd9b33e344ff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/leaderboard plank.png using Guid(588c0f9e94a0a41aaadd9b33e344ff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20622f8b09750ab85e8d2e9cf47a5078') in 0.006818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/park_background_png.png
+  artifactKey: Guid(5c70ce9ecb1104813b41e17fe1376ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/park_background_png.png using Guid(5c70ce9ecb1104813b41e17fe1376ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2b2409c144babbf86bedcfe85fb1510') in 0.011934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/unhealthy_candy.png
+  artifactKey: Guid(54b57cb7ab63446a088f803c74e3fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/unhealthy_candy.png using Guid(54b57cb7ab63446a088f803c74e3fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '715c228d85674a66b863b90de8f749fe') in 0.011184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 324.342281 seconds.
+  path: Assets/Sprites/neutral_state.png
+  artifactKey: Guid(1a522dfaba97a436fa8e36b0170de1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/neutral_state.png using Guid(1a522dfaba97a436fa8e36b0170de1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aae899dd1f800b9c81cc4e39e703b6ec') in 0.074607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/run_02.png
+  artifactKey: Guid(3fba65ea8caf2429a9b1b77f954e839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/run_02.png using Guid(3fba65ea8caf2429a9b1b77f954e839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '073f04627522e5e502d0d994532b4efc') in 0.010046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sprites/run_03.png
+  artifactKey: Guid(0b2e6a8abdd10452ea1b26bb461372bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/run_03.png using Guid(0b2e6a8abdd10452ea1b26bb461372bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ea17d84b04c3bcc257f4bf4e898e8e6') in 0.009297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/run_01.png
+  artifactKey: Guid(d8b6410b8939940118ea5b58877eed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/run_01.png using Guid(d8b6410b8939940118ea5b58877eed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdf7e8cb755ae31d018ce1c30d599043') in 0.011086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/run_05.png
+  artifactKey: Guid(1d9090ae37b074733b3a748b9f49ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/run_05.png using Guid(1d9090ae37b074733b3a748b9f49ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfb2e35f254c7defc63fbe7f56033e89') in 0.009283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.46 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.081 seconds
+Domain Reload Profiling: 1590ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1081ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (3.4 MB). Loaded Objects now: 4687.
+Memory consumption went from 198.1 MB to 194.6 MB.
+Total: 7.221542 ms (FindLiveObjects: 0.262542 ms CreateObjectMapping: 0.274375 ms MarkObjects: 4.299666 ms  DeleteObjects: 2.384167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3717.953046 seconds.
+  path: Assets/Prefabs/drops_candy Variant.prefab
+  artifactKey: Guid(277b65501d4444ca6aabd6e9697a7e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_candy Variant.prefab using Guid(277b65501d4444ca6aabd6e9697a7e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20ccaf7d51926c15d5c5e290419c2908') in 0.401663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 1548ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (4.1 MB). Loaded Objects now: 4729.
+Memory consumption went from 208.8 MB to 204.8 MB.
+Total: 4.312208 ms (FindLiveObjects: 0.162833 ms CreateObjectMapping: 0.054791 ms MarkObjects: 2.910833 ms  DeleteObjects: 1.182833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1647.500393 seconds.
+  path: Assets/Sprites/UI/hud_heartFull.png
+  artifactKey: Guid(e4de5a1692e19467ea2f209df48a0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/hud_heartFull.png using Guid(e4de5a1692e19467ea2f209df48a0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cfb799dd8af82079a1909a6240a5ff9a') in 0.103400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.560 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.81 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.191 seconds
+Domain Reload Profiling: 1751ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (4.1 MB). Loaded Objects now: 4736.
+Memory consumption went from 214.8 MB to 210.7 MB.
+Total: 4.878625 ms (FindLiveObjects: 0.164542 ms CreateObjectMapping: 0.063083 ms MarkObjects: 2.952625 ms  DeleteObjects: 1.697792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.503 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (4.1 MB). Loaded Objects now: 4740.
+Memory consumption went from 220.3 MB to 216.3 MB.
+Total: 4.627708 ms (FindLiveObjects: 0.163959 ms CreateObjectMapping: 0.076125 ms MarkObjects: 2.806666 ms  DeleteObjects: 1.580292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.096 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1096ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (324ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (4.1 MB). Loaded Objects now: 4744.
+Memory consumption went from 225.8 MB to 221.8 MB.
+Total: 8.009500 ms (FindLiveObjects: 0.180708 ms CreateObjectMapping: 0.083208 ms MarkObjects: 5.595792 ms  DeleteObjects: 2.149125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 704.836926 seconds.
+  path: Assets/Prefabs/drops_apple Variant.prefab
+  artifactKey: Guid(b3eb64a50247f4cc4bd071ea543325ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_apple Variant.prefab using Guid(b3eb64a50247f4cc4bd071ea543325ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4cc2c021c742b93739b2181abe6c594') in 0.151523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Prefabs/drops_nuggets Variant.prefab
+  artifactKey: Guid(40b00bbaab45f4ba6b832091d92b6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_nuggets Variant.prefab using Guid(40b00bbaab45f4ba6b832091d92b6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '501b949c1223f5c5f70fd2d6e8f25fb8') in 0.016985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/drops_candy Variant.prefab
+  artifactKey: Guid(277b65501d4444ca6aabd6e9697a7e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_candy Variant.prefab using Guid(277b65501d4444ca6aabd6e9697a7e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae90488021078ce6ffa3cfff1d5cadf9') in 0.007016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Prefabs/drops_soda Variant.prefab
+  artifactKey: Guid(5a40a26a3bcfb47e094bb93232d89335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_soda Variant.prefab using Guid(5a40a26a3bcfb47e094bb93232d89335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '791fb9f3b509d1194027e87d54fa2c9a') in 0.025535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Prefabs/drops_fish Variant.prefab
+  artifactKey: Guid(0a066d7a10dc54676954c0a730029e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/drops_fish Variant.prefab using Guid(0a066d7a10dc54676954c0a730029e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec99614d1352b5ecddfbf64fbb2cffb2') in 0.008084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d56f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.919 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2022.3.32f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libnuitrack
+<color=red><b>Test Nuitrack init failed!</b></color>
+<color=red><b>It is recommended to test on AllModulesScene. (Start the scene and follow the on-screen instructions)</b></color>
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:93)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 93)
+
+System.DllNotFoundException: libnuitrack assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) nuitrack.NativeImporter.nuitrack_InitializeFromConfig_E(string,intptr&)
+  at nuitrack.NativeNuitrack.Init (System.String config) [0x00006] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at nuitrack.Nuitrack.Init (System.String config, nuitrack.Nuitrack+NuitrackMode mode) [0x00029] in <0dba52d8ba4c458ab12d583e381918b5>:0 
+  at NuitrackSDKEditor.ErrorSolver.NuitrackChecker.PingNuitrack () [0x000c3] in /Users/bytedance/Unity/Healthy Park 2D/Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:59 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:PingNuitrack () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:96)
+NuitrackSDKEditor.ErrorSolver.NuitrackChecker:.cctor () (at Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/NuitrackSDK/Nuitrack/Scripts/Editor/ErrorSolver/NuitrackChecker.cs Line: 96)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1937ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (728ms)
+		LoadAssemblies (769ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (4.0 MB). Loaded Objects now: 4748.
+Memory consumption went from 231.9 MB to 227.8 MB.
+Total: 5.420083 ms (FindLiveObjects: 0.160625 ms CreateObjectMapping: 0.056750 ms MarkObjects: 3.051750 ms  DeleteObjects: 2.150042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.792896 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/1.png
+  artifactKey: Guid(00995fe4628f88548bd649b9397b9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/1.png using Guid(00995fe4628f88548bd649b9397b9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b9c1e41b8a39c0f7b6bbd24bef197ed') in 0.168316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/6.png
+  artifactKey: Guid(dfeb0b19c27bfe74280d4d2bc8fe24ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/6.png using Guid(dfeb0b19c27bfe74280d4d2bc8fe24ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eaec0a3f4f4aee6ca41697016996a231') in 0.025211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/7.png
+  artifactKey: Guid(00d120918d909e0439c791dab16fa460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/7.png using Guid(00d120918d909e0439c791dab16fa460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '02affc12c5a0257b6a96edb1bc12e1f5') in 0.009763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/5.png
+  artifactKey: Guid(35ef6717c7cd21449ba327eb0222b6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/5.png using Guid(35ef6717c7cd21449ba327eb0222b6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '51ebb1e5f17741edf0ef89d138fb4b5a') in 0.012416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.089113 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/9.png
+  artifactKey: Guid(8d59749dfc6e692419f252bb40a70d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/9.png using Guid(8d59749dfc6e692419f252bb40a70d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1c1d0a15fab8709981b78f97e1b1b265') in 0.009319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.155174 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/11.png
+  artifactKey: Guid(dac3715649acac54fa1d89dfe0d0dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/ImageAsset/11.png using Guid(dac3715649acac54fa1d89dfe0d0dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4445a7c91860da4fc2e5b06f11dc4666') in 0.010392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.378413 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Adult_female.png
+  artifactKey: Guid(46cffcae817da444fa3d1a6ab828c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Adult_female.png using Guid(46cffcae817da444fa3d1a6ab828c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c40a617b4437b334d650fe3d9468cd7c') in 0.009971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.050095 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/All.png
+  artifactKey: Guid(1fdf6a9dc35e7624ab24f63bed41c41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/All.png using Guid(1fdf6a9dc35e7624ab24f63bed41c41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '551619fe12aa55c18ea39349f47b97ea') in 0.013165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030077 seconds.
+  path: Assets/NuitrackSDK/NuitrackCalibrationRGB/Textures/Background.png
+  artifactKey: Guid(e7b94f1473bfad946b1ca50f1f0743dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/NuitrackCalibrationRGB/Textures/Background.png using Guid(e7b94f1473bfad946b1ca50f1f0743dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5616eb587aa782ccfd55a0d14c2de650') in 0.008273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.395655 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female.png
+  artifactKey: Guid(07af884dc3af83447acf6369e84eff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female.png using Guid(07af884dc3af83447acf6369e84eff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dcecc02627bb2d7ff40b59485cb9151e') in 0.014626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018892 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_3.png
+  artifactKey: Guid(b2984737dcbb47f41b22c6e2532b6534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_3.png using Guid(b2984737dcbb47f41b22c6e2532b6534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '349bf9d87229a88a01070c6d3fd7c40d') in 0.008276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_4.png
+  artifactKey: Guid(14c8846676a53e24da8cce4e7d4d0c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_4.png using Guid(14c8846676a53e24da8cce4e7d4d0c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b77d20db904c4b15555dd80677c2c2b') in 0.011404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021179 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_old_2.png
+  artifactKey: Guid(f42b2c79673d1cb4dbd91aaa1105d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Female_old_2.png using Guid(f42b2c79673d1cb4dbd91aaa1105d487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ceab79d2a0e95cf307d5c94c55f37ac') in 0.009045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.404131 seconds.
+  path: Assets/NuitrackSDK/Tutorials/HandTracker/Sprites/HandDown.png
+  artifactKey: Guid(2efa4199f7db2e04589ea36ca0a202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/HandTracker/Sprites/HandDown.png using Guid(2efa4199f7db2e04589ea36ca0a202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58db95d625e7c78612540f29a004599b') in 0.013259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.636135 seconds.
+  path: Assets/NuitrackSDK/NuitrackCalibrationRGB/Textures/Human.png
+  artifactKey: Guid(daad1295f2f0149468c08ac4741b0c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/NuitrackCalibrationRGB/Textures/Human.png using Guid(daad1295f2f0149468c08ac4741b0c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7bc8646bf8bf538b724952e88866b61') in 0.012445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.488151 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Male_2.png
+  artifactKey: Guid(c2aa20f9745f76c44923318b7998f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Male_2.png using Guid(c2aa20f9745f76c44923318b7998f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '432e175e374369e9e4e597e898eed1c4') in 0.009949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Male_old.png
+  artifactKey: Guid(e09ba035446d68f4aa73f3d16221f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Male_old.png using Guid(e09ba035446d68f4aa73f3d16221f114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd68cf7fc4d37e0fcaa61f9917c308294') in 0.009411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.539476 seconds.
+  path: Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Old_3.png
+  artifactKey: Guid(cdc38df69c4062542811537488699426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/FaceTracker/Sprites/Smile/Old_3.png using Guid(cdc38df69c4062542811537488699426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34e1d872dbce4d4c37845f4b5a8c2325') in 0.015082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

@@ -183,6 +183,7 @@
     <Compile Include="Assets/NuitrackSDK/Tutorials/HandTracker/Scripts/Pointer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/NuitrackSDK/Frame/Scripts/FrameProvider.cs" />
+    <Compile Include="Assets/Scripts/Drops.cs" />
     <Compile Include="Assets/NuitrackSDK/Frame/Scripts/FrameUtils.cs" />
     <Compile Include="Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts/DrawColorFrame.cs" />
     <Compile Include="Assets/NuitrackSDK/Avatar/UI Avatar/Scripts/SkeletonsUI.cs" />
@@ -208,12 +209,14 @@
     <Compile Include="Assets/NuitrackSDK/NuitrackDemos/LicenseActivation/LicenseActivator.cs" />
     <Compile Include="Assets/NuitrackSDK/Tutorials/Box (VR Mobile)/Scripts/RigidbodyFollower.cs" />
     <Compile Include="Assets/NuitrackSDK/Tutorials/AR Nuitrack/ShaderGraphSample/Scripts/ShaderGraphRender.cs" />
+    <Compile Include="Assets/Scripts/UIManager.cs" />
     <Compile Include="Assets/NuitrackSDK/Nuitrack/Scripts/UserManager/Users.cs" />
     <Compile Include="Assets/NuitrackSDK/Nuitrack/Scripts/HandPressure.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/NuitrackSDK/NuitrackDemos/All Modules/Scripts/EmergencyExit.cs" />
     <Compile Include="Assets/NuitrackSDK/Frame/Scripts/ToTextureModules/RGBToTexture.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/Scripts/DropsSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/NuitrackSDK/Avatar/3D Avatar/Models/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_fuku.shader" />

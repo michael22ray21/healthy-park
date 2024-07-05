@@ -8,7 +8,7 @@ public class DropsSpawner : MonoBehaviour
 
     private Vector2 screenBounds;
     private float xPos;
-    private float padding = .9f;
+    private readonly float padding = .9f;
     private readonly bool playing = true;
 
     // Start is called before the first frame update
@@ -35,5 +35,8 @@ public class DropsSpawner : MonoBehaviour
         var range = screenBounds.x * 0.5f;
         xPos += Random.Range(-range, range);
         xPos = Mathf.Clamp(xPos, -screenBounds.x * padding, screenBounds.x * padding);
+        if (Random.Range(0, 2) == 1) {
+            xPos *= -1;
+        }
     }
 }

@@ -1,5 +1,5 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 1.3f;
 
     float horizontalMove = 0f;
-    float animTime = .75f;
+    readonly float animTime = .75f;
 
     public void Awake()
     {

@@ -161,6 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a80ae30bdc14a4086918683dd5338bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.4
   hitEffect: {fileID: 6887194872891962956, guid: 848d1d0a429aa4651a18a15688a3d2b9, type: 3}
+  floatingPoints: {fileID: 6482774030650014002, guid: f0c60e99942146747a15a667527e3ab8, type: 3}
+  speed: 0.4
   point: 0

@@ -152,8 +152,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\CalibrationRotationScripts\CalibrationHandler.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\NuitrackAssembly\iOS\IOSBuildPostprocess.cs" />
-    <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseViewer.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\NuitrackSDK\PoseDetector\Sample\Scripts\PoseViewer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\SegmentExample\Scripts\GameColliders.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -166,6 +166,7 @@
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\FacePoints\FaceVizualizer.cs" />
     <Compile Include="Assets\NuitrackSDK\NuitrackCalibrationRGB\Scripts\RGBCalibrationVisualizer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\NuitrackSDK\SafetyGrid\Scripts\SafetyGrid.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\NuitrackConfigHandler.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\FaceTracker\FinalAssets\Scripts\FaceSwitcher.cs" />
@@ -212,7 +213,6 @@
     <Compile Include="Assets\NuitrackSDK\NuitrackDemos\LicenseActivation\LicenseActivator.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Box (VR Mobile)\Scripts\RigidbodyFollower.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\ShaderGraphSample\Scripts\ShaderGraphRender.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\UserManager\Users.cs" />
     <Compile Include="Assets\NuitrackSDK\Nuitrack\Scripts\HandPressure.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

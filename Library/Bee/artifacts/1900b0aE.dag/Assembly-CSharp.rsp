@@ -489,6 +489,7 @@
 "Assets/NuitrackSDK/Tutorials/Zombie Nightmare (VR)/Final Assets/Scripts/ZombieController.cs"
 "Assets/Scripts/Drops.cs"
 "Assets/Scripts/DropsSpawner.cs"
+"Assets/Scripts/EndScreenManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealthManager.cs"
 "Assets/Scripts/MainMenu.cs"

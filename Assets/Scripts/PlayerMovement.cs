@@ -4,12 +4,11 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement instance;
-
     public PlayerController playerController;
-    public Animator animator;
-    public float runSpeed = 1.3f;
 
+    [SerializeField] Animator animator;
     float horizontalMove = 0f;
+    readonly float runSpeed = 1.3f;
     readonly float animTime = .75f;
 
     public void Awake()
@@ -20,13 +19,15 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        if (GameManager.instance.IsPlaying()) {
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        }
     }
 
     void FixedUpdate()
     {
-        playerController.Move(horizontalMove);
+        if (GameManager.instance.IsPlaying()) playerController.Move(horizontalMove);
     }
 
     public void PlayYay()

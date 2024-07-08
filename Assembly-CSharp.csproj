@@ -179,6 +179,7 @@
     <Compile Include="Assets\NuitrackSDK\Tutorials\HandTracker\Scripts\HandsInputModule.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Animated Emoji\Final Assets\Scripts\FaceAnimManager.cs" />
     <Compile Include="Assets\NuitrackSDK\Avatar\UI Avatar\Scripts\UIAvatar.cs" />
+    <Compile Include="Assets\Scripts\EndScreenManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\AR Nuitrack\Extensions\Scripts\BackForce.cs" />
     <Compile Include="Assets\NuitrackSDK\Tutorials\Point Cloud\PointCloud.cs" />

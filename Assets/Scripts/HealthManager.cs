@@ -4,13 +4,13 @@ public class HealthManager : MonoBehaviour
 {
     public static HealthManager instance;
 
-    [SerializeField] private GameObject[] hearts;
-    [SerializeField] private GameObject noHeartsText;
-    private int health = 3;
-    private bool useHearts = false;
+    [SerializeField] GameObject[] hearts;
+    [SerializeField] GameObject noHeartsText;
+    int health = 3;
+    bool useHearts = false;
 
 
-    public void Awake()
+    void Awake()
     {
         instance = this;
     }
@@ -28,15 +28,11 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void DecreaseHealth()
     {
-        if (useHearts && health > 0) {
+        if (health == 0) {
+            GameManager.instance.EndGame();
+        } else if (useHearts) {
             hearts[--health].SetActive(false);
         }
     }

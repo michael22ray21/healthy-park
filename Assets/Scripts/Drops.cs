@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class Drops : MonoBehaviour
 {
-    [SerializeField] private GameObject hitEffect;
-    [SerializeField] private GameObject floatingPoints;
+    [SerializeField] GameObject hitEffect;
+    [SerializeField] GameObject floatingPoints;
     public float speed = 0.4f;
-    private Rigidbody2D rb;
+    Rigidbody2D rb;
 
     public int point;
 

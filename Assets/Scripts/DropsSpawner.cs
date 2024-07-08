@@ -1,20 +1,19 @@
 using UnityEngine;
 using System.Collections;
-using NuitrackSDK.Tutorials.ZombieVR;
 
 public class DropsSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject[] dropsPrefab;
-    [SerializeField] private float respawnTime = 1.5f;
-    private Vector2 screenBounds;
-    private float xPos;
-    private readonly float padding = .85f;
-    private bool useNegItems = false;
-    private bool useHearts = false;
-    private int baseChance = 1;
-    private int currentChance;
-
-    public bool playing = true;
+    [SerializeField] GameObject[] dropsPrefab;
+    [SerializeField] float respawnTime = 1.5f;
+    Vector2 screenBounds;
+    float xPos;
+    readonly float padding = .85f;
+    bool useNegItems = false;
+    bool useHearts = false;
+    int baseChance = 1;
+    int currentChance;
+    int mirrorChance = 4;
+    float rangeDistance = .5f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,17 +27,18 @@ public class DropsSpawner : MonoBehaviour
 
     IEnumerator StartDrops()
     {
-        while (playing)
-        {
+        while (GameManager.instance.IsPlaying()) {
             yield return new WaitForSeconds(respawnTime);
             SpawnDrops();
         }
     }
 
-    private void SpawnDrops()
+    void SpawnDrops()
     {
         if (useHearts && respawnTime > .8f) {
             if (Random.Range(0, 10) < currentChance) {
+                rangeDistance -= .1f;
+                mirrorChance -= 1;
                 respawnTime -= .2f;
                 baseChance++;
                 currentChance = baseChance;
@@ -46,12 +46,12 @@ public class DropsSpawner : MonoBehaviour
                 currentChance++;
             }
         }
-        GameObject selected = dropsPrefab[Random.Range(0, useNegItems ? dropsPrefab.Length : 4)];
+        GameObject selected = dropsPrefab[Random.Range(0, 4) + (useNegItems ? Random.Range(0, 5) : 0)];
         GameObject _ = Instantiate(selected, new Vector2(xPos, screenBounds.y * 1.1f), Quaternion.identity);
-        var range = screenBounds.x * 0.5f;
+        var range = screenBounds.x * rangeDistance;
         xPos += Random.Range(-range, range);
         xPos = Mathf.Clamp(xPos, -screenBounds.x * padding, screenBounds.x * padding);
-        if (Random.Range(0, 5) == 1) {
+        if (Random.Range(0, 10) < mirrorChance) {
             xPos *= -1;
         }
     }

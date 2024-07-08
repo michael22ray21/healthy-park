@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject whoosh;
-    [SerializeField] private GameObject optionsMenu;
+    [SerializeField] GameObject whoosh;
+    [SerializeField] GameObject optionsMenu;
 
     void Start()
     {

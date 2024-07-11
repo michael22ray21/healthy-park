@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
     bool useHearts = false;
     float timeInSeconds;
     int score = 0;
-    bool playing = false;
+
+    public bool playing = false;
 
     void Awake()
     {
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour
         }
         scoreText.text = $"Score: {score}";
         playing = true;
+        StartCoroutine(DropsSpawner.instance.StartDrops());
     }
 
     void Update()
@@ -42,14 +44,10 @@ public class GameManager : MonoBehaviour
         if (!useHearts && timeInSeconds > 0) UpdateTimer();
     }
 
-    public bool IsPlaying()
-    {
-        return playing;
-    }
-
     void UpdateTimer()
     {
         timeInSeconds -= Time.deltaTime;
+        if (timeInSeconds <= 0) EndGame();
         int minutes = Mathf.FloorToInt(timeInSeconds/60);
         int seconds = Mathf.FloorToInt(timeInSeconds%60);
         timerText.text = $"{minutes:D2}:{seconds:D2}";

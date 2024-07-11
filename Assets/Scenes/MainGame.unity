@@ -2427,7 +2427,7 @@ MonoBehaviour:
   noHeartsText: {fileID: 2079594568}
   timerUI: {fileID: 240504213}
   gameOverUI: {fileID: 1509456498}
-  newHighscoreUI: {fileID: 0}
+  newHighscoreUI: {fileID: 2024695486}
 --- !u!4 &2111976055
 Transform:
   m_ObjectHideFlags: 0

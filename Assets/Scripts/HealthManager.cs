@@ -30,10 +30,11 @@ public class HealthManager : MonoBehaviour
 
     public void DecreaseHealth()
     {
+        if (useHearts && GameManager.instance.playing) {
+            hearts[--health].SetActive(false);
+        }
         if (health == 0) {
             GameManager.instance.EndGame();
-        } else if (useHearts) {
-            hearts[--health].SetActive(false);
         }
     }
 }

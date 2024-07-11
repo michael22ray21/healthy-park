@@ -3,6 +3,8 @@ using System.Collections;
 
 public class DropsSpawner : MonoBehaviour
 {
+    public static DropsSpawner instance;
+
     [SerializeField] GameObject[] dropsPrefab;
     [SerializeField] float respawnTime = 1.5f;
     Vector2 screenBounds;
@@ -15,6 +17,11 @@ public class DropsSpawner : MonoBehaviour
     int mirrorChance = 4;
     float rangeDistance = .5f;
 
+    void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +29,11 @@ public class DropsSpawner : MonoBehaviour
         useNegItems = PlayerPrefs.GetInt("complexity") == 1;
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         xPos = screenBounds.x / 2;
-        StartCoroutine(StartDrops());
     }
 
-    IEnumerator StartDrops()
+    public IEnumerator StartDrops()
     {
-        while (GameManager.instance.IsPlaying()) {
+        while (GameManager.instance.playing) {
             yield return new WaitForSeconds(respawnTime);
             SpawnDrops();
         }
@@ -47,7 +53,7 @@ public class DropsSpawner : MonoBehaviour
             }
         }
         GameObject selected = dropsPrefab[Random.Range(0, 4) + (useNegItems ? Random.Range(0, 5) : 0)];
-        GameObject _ = Instantiate(selected, new Vector2(xPos, screenBounds.y * 1.1f), Quaternion.identity);
+        GameObject _ = Instantiate(selected, new Vector2(xPos, screenBounds.y * 1.15f), Quaternion.identity);
         var range = screenBounds.x * rangeDistance;
         xPos += Random.Range(-range, range);
         xPos = Mathf.Clamp(xPos, -screenBounds.x * padding, screenBounds.x * padding);

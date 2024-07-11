@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.IsPlaying()) {
+        if (GameManager.instance.playing) {
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
             animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         }
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (GameManager.instance.IsPlaying()) playerController.Move(horizontalMove);
+        if (GameManager.instance.playing) playerController.Move(horizontalMove);
     }
 
     public void PlayYay()
